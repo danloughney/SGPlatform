@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BF9C9C326BA1A12ECB8AB2B /* Pods_SGPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51A1DC1738F4B6D0A66A071 /* Pods_SGPlatform.framework */; };
 		7A5874C71DB0366100A892E8 /* SGPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5874BD1DB0366100A892E8 /* SGPlatform.framework */; };
 		7A5874CC1DB0366100A892E8 /* SGPlatformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5874CB1DB0366100A892E8 /* SGPlatformTests.m */; };
-		7A5874CE1DB0366100A892E8 /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5874C01DB0366100A892E8 /* SGPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A64069B1DB03FC4009D23E2 /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6406991DB03FC4009D23E2 /* SGPlatform.h */; };
+		7A64069C1DB03FC4009D23E2 /* SGPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64069A1DB03FC4009D23E2 /* SGPlatform.m */; };
+		7A9548B41DB25C1500B7A3F0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7A9548B31DB25C1500B7A3F0 /* LICENSE */; };
+		7A9548B61DB25CCE00B7A3F0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7A9548B51DB25CCE00B7A3F0 /* README */; };
+		FA04987B171820AEBB1E6A15 /* Pods_SGPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C421C5D716D169E5DF1D499 /* Pods_SGPlatformTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AE6F251A6C5DBABEAA3E11 /* Pods-SGPlatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPlatformTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGPlatformTests/Pods-SGPlatformTests.release.xcconfig"; sourceTree = "<group>"; };
+		185E75849C68D2F6A0827415 /* Pods-SGPlatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPlatformTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGPlatformTests/Pods-SGPlatformTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C421C5D716D169E5DF1D499 /* Pods_SGPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E859D90D64E6EDC958D070B /* Pods-SGPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGPlatform/Pods-SGPlatform.release.xcconfig"; sourceTree = "<group>"; };
+		6823CCDF7AA1E7E3210554D4 /* Pods-SGPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGPlatform/Pods-SGPlatform.debug.xcconfig"; sourceTree = "<group>"; };
 		7A5874BD1DB0366100A892E8 /* SGPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A5874C01DB0366100A892E8 /* SGPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGPlatform.h; sourceTree = "<group>"; };
 		7A5874C11DB0366100A892E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A5874C61DB0366100A892E8 /* SGPlatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5874CB1DB0366100A892E8 /* SGPlatformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPlatformTests.m; sourceTree = "<group>"; };
 		7A5874CD1DB0366100A892E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6406991DB03FC4009D23E2 /* SGPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPlatform.h; sourceTree = "<group>"; };
+		7A64069A1DB03FC4009D23E2 /* SGPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPlatform.m; sourceTree = "<group>"; };
+		7A9548B31DB25C1500B7A3F0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7A9548B51DB25CCE00B7A3F0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B51A1DC1738F4B6D0A66A071 /* Pods_SGPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF9C9C326BA1A12ECB8AB2B /* Pods_SGPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +59,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A5874C71DB0366100A892E8 /* SGPlatform.framework in Frameworks */,
+				FA04987B171820AEBB1E6A15 /* Pods_SGPlatformTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FC553137A73CC25A2BE843E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6823CCDF7AA1E7E3210554D4 /* Pods-SGPlatform.debug.xcconfig */,
+				5E859D90D64E6EDC958D070B /* Pods-SGPlatform.release.xcconfig */,
+				185E75849C68D2F6A0827415 /* Pods-SGPlatformTests.debug.xcconfig */,
+				07AE6F251A6C5DBABEAA3E11 /* Pods-SGPlatformTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		753AC14676622825A1EC7C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51A1DC1738F4B6D0A66A071 /* Pods_SGPlatform.framework */,
+				5C421C5D716D169E5DF1D499 /* Pods_SGPlatformTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7A5874B31DB0366100A892E8 = {
 			isa = PBXGroup;
 			children = (
+				7A9548B31DB25C1500B7A3F0 /* LICENSE */,
+				7A9548B51DB25CCE00B7A3F0 /* README */,
+				7A6406991DB03FC4009D23E2 /* SGPlatform.h */,
+				7A64069A1DB03FC4009D23E2 /* SGPlatform.m */,
 				7A5874BF1DB0366100A892E8 /* SGPlatform */,
 				7A5874CA1DB0366100A892E8 /* SGPlatformTests */,
 				7A5874BE1DB0366100A892E8 /* Products */,
+				2FC553137A73CC25A2BE843E /* Pods */,
+				753AC14676622825A1EC7C7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +113,6 @@
 		7A5874BF1DB0366100A892E8 /* SGPlatform */ = {
 			isa = PBXGroup;
 			children = (
-				7A5874C01DB0366100A892E8 /* SGPlatform.h */,
 				7A5874C11DB0366100A892E8 /* Info.plist */,
 			);
 			path = SGPlatform;
@@ -93,7 +134,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A5874CE1DB0366100A892E8 /* SGPlatform.h in Headers */,
+				7A64069B1DB03FC4009D23E2 /* SGPlatform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A5874D11DB0366100A892E8 /* Build configuration list for PBXNativeTarget "SGPlatform" */;
 			buildPhases = (
+				A6D174F09A960C3CBCFEF3E5 /* [CP] Check Pods Manifest.lock */,
 				7A5874B81DB0366100A892E8 /* Sources */,
 				7A5874B91DB0366100A892E8 /* Frameworks */,
 				7A5874BA1DB0366100A892E8 /* Headers */,
 				7A5874BB1DB0366100A892E8 /* Resources */,
+				5594C29AFFFAB8032968F54D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A5874D41DB0366100A892E8 /* Build configuration list for PBXNativeTarget "SGPlatformTests" */;
 			buildPhases = (
+				5E70384D645B77DB16109324 /* [CP] Check Pods Manifest.lock */,
 				7A5874C21DB0366100A892E8 /* Sources */,
 				7A5874C31DB0366100A892E8 /* Frameworks */,
 				7A5874C41DB0366100A892E8 /* Resources */,
+				F91037191899A5FA6BEE3FF7 /* [CP] Embed Pods Frameworks */,
+				A7AF28D05A090F30988A6D96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9548B61DB25CCE00B7A3F0 /* README in Resources */,
+				7A9548B41DB25C1500B7A3F0 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,11 +238,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5594C29AFFFAB8032968F54D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGPlatform/Pods-SGPlatform-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E70384D645B77DB16109324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D174F09A960C3CBCFEF3E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7AF28D05A090F30988A6D96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGPlatformTests/Pods-SGPlatformTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91037191899A5FA6BEE3FF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGPlatformTests/Pods-SGPlatformTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A5874B81DB0366100A892E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A64069C1DB03FC4009D23E2 /* SGPlatform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +442,7 @@
 		};
 		7A5874D21DB0366100A892E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6823CCDF7AA1E7E3210554D4 /* Pods-SGPlatform.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -332,6 +460,7 @@
 		};
 		7A5874D31DB0366100A892E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E859D90D64E6EDC958D070B /* Pods-SGPlatform.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -349,6 +478,7 @@
 		};
 		7A5874D51DB0366100A892E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185E75849C68D2F6A0827415 /* Pods-SGPlatformTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SGPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -359,6 +489,7 @@
 		};
 		7A5874D61DB0366100A892E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AE6F251A6C5DBABEAA3E11 /* Pods-SGPlatformTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SGPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -386,6 +517,7 @@
 				7A5874D31DB0366100A892E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A5874D41DB0366100A892E8 /* Build configuration list for PBXNativeTarget "SGPlatformTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +526,7 @@
 				7A5874D61DB0366100A892E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
