@@ -1,0 +1,6 @@
+framework module Pods_SGPlatform {
+  umbrella header "Pods-SGPlatform-umbrella.h"
+
+  export *
+  module * { export * }
+}
