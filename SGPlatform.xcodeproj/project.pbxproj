@@ -10,7 +10,8 @@
 		4BF9C9C326BA1A12ECB8AB2B /* Pods_SGPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51A1DC1738F4B6D0A66A071 /* Pods_SGPlatform.framework */; };
 		7A5874C71DB0366100A892E8 /* SGPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5874BD1DB0366100A892E8 /* SGPlatform.framework */; };
 		7A5874CC1DB0366100A892E8 /* SGPlatformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5874CB1DB0366100A892E8 /* SGPlatformTests.m */; };
-		7A64069B1DB03FC4009D23E2 /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6406991DB03FC4009D23E2 /* SGPlatform.h */; };
+		7A6367051DBED4A600FE8F00 /* SGPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6367041DBED4A600FE8F00 /* SGPlatform.h */; };
+		7A6367071DBEDDD900FE8F00 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6367061DBEDDD900FE8F00 /* PublicHeader.h */; };
 		7A64069C1DB03FC4009D23E2 /* SGPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A64069A1DB03FC4009D23E2 /* SGPlatform.m */; };
 		7A9548B41DB25C1500B7A3F0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7A9548B31DB25C1500B7A3F0 /* LICENSE */; };
 		7A9548B61DB25CCE00B7A3F0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7A9548B51DB25CCE00B7A3F0 /* README */; };
@@ -39,7 +40,8 @@
 		7A5874C61DB0366100A892E8 /* SGPlatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5874CB1DB0366100A892E8 /* SGPlatformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGPlatformTests.m; sourceTree = "<group>"; };
 		7A5874CD1DB0366100A892E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A6406991DB03FC4009D23E2 /* SGPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPlatform.h; sourceTree = "<group>"; };
+		7A6367041DBED4A600FE8F00 /* SGPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPlatform.h; sourceTree = "<group>"; };
+		7A6367061DBEDDD900FE8F00 /* PublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		7A64069A1DB03FC4009D23E2 /* SGPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPlatform.m; sourceTree = "<group>"; };
 		7A9548B31DB25C1500B7A3F0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7A9548B51DB25CCE00B7A3F0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
@@ -94,8 +96,6 @@
 				7A9548B71DB25E4900B7A3F0 /* SGPlatform.podspec */,
 				7A9548B31DB25C1500B7A3F0 /* LICENSE */,
 				7A9548B51DB25CCE00B7A3F0 /* README */,
-				7A6406991DB03FC4009D23E2 /* SGPlatform.h */,
-				7A64069A1DB03FC4009D23E2 /* SGPlatform.m */,
 				7A5874BF1DB0366100A892E8 /* SGPlatform */,
 				7A5874CA1DB0366100A892E8 /* SGPlatformTests */,
 				7A5874BE1DB0366100A892E8 /* Products */,
@@ -116,6 +116,9 @@
 		7A5874BF1DB0366100A892E8 /* SGPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				7A6367061DBEDDD900FE8F00 /* PublicHeader.h */,
+				7A6367041DBED4A600FE8F00 /* SGPlatform.h */,
+				7A64069A1DB03FC4009D23E2 /* SGPlatform.m */,
 				7A5874C11DB0366100A892E8 /* Info.plist */,
 			);
 			path = SGPlatform;
@@ -137,7 +140,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A64069B1DB03FC4009D23E2 /* SGPlatform.h in Headers */,
+				7A6367071DBEDDD900FE8F00 /* PublicHeader.h in Headers */,
+				7A6367051DBED4A600FE8F00 /* SGPlatform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
